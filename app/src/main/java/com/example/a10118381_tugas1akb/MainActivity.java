@@ -10,7 +10,11 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    //6-04-2021-10118381-Muhammad Rizqi Hidayatullah-IF9
+
+    //7-04-2021
+    // 10118381
+    // Muhammad Rizqi Hidayatullah
+    // IF9
 
     private Button btnprofil;
 
@@ -28,19 +32,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
-       Button logout = (Button) findViewById(R.id.logout);
-
-        logout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-              logout();
-            }
-        });
-    }
-
-    public void logout(){
-        finish();
     }
 }

@@ -8,7 +8,11 @@ import android.view.View;
 import android.widget.Button;
 
 public class Registrasi extends AppCompatActivity {
-    //6-04-2021-10118381-Muhammad Rizqi Hidayatullah-IF9
+
+    //7-04-2021
+    // 10118381
+    // Muhammad Rizqi Hidayatullah
+    // IF9
 
     private Button btnsimpan;
 
